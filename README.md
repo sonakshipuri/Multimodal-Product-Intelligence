@@ -126,14 +126,15 @@ A deep neural network was trained on fused embeddings to learn nonlinear interac
 
 
 ## Results
+```text
 
 | Model                          | SMAPE      |
-|  | - |
+------------------------------------------------
 | Image-only (CLIP + Ridge)      | 71.36%     |
 | Text-only (DistilBERT + Ridge) | 69.03%     |
 | Fusion (Ridge, no MLP)         | 78.50%     |
 | Fusion MLP (CLIP + DistilBERT) | **45.45%** |
-
+```
 ### Key Findings
 
 * Fusion MLP achieved the best overall performance.
