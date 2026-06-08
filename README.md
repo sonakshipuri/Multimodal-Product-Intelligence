@@ -18,11 +18,19 @@ The objective is to predict product prices using both product images and titles 
 
 ## Dataset
 
-The project uses Amazon product listings containing:
+The dataset used in this project is publicly available on Kaggle:
 
-* Product titles
-* Product images
-* Product prices
+**Amazon Products Dataset (2023, 1.4M Products)**
+https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
+
+After downloading, place the file in:
+
+```text
+data/amazon_products.csv
+```
+
 
 ### Data Processing
 
