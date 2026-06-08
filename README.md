@@ -1,4 +1,4 @@
-# Multimodal Product Intelligence
+# Multimodal Price Prediction via Late-Fusion 
 
 A multimodal machine learning system for product price prediction that combines visual information from product images and textual information from product titles. The project leverages pretrained CLIP and DistilBERT embeddings and learns a fusion network to estimate product prices from Amazon product listings.
 
